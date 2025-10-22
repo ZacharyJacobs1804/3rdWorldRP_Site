@@ -2,8 +2,8 @@
   <section class="hero">
     <div class="hero-container">
       <!-- Left Side Content -->
-      <div class="hero-content">
-        <h1>WELCOME TO <span class="highlight">3RD WORLD RP</span></h1>
+      <div class="hero-content cyber-title">
+        <h1>WELCOME TO <span class="cyber-title">3RD WORLD RP</span></h1>
         <p class="tagline">Where realism meets respect</p>
         <p class="description">
           Join our immersive FiveM roleplay community where every decision matters. 
@@ -11,7 +11,7 @@
         </p>
         <div class="button-group">
           <button class="primary-btn">JOIN THE SERVER</button>
-          <button class="secondary-btn">VIEW SOPs</button>
+          <a class="secondary-btn" href="https://discord.gg/JvDqJ5vCXA" target="_blank">DISCORD</a>
         </div>
       </div>
 
@@ -34,6 +34,19 @@
 </template>
 
 <style scoped>
+.cyber-title {
+  /* text-align: center; */
+  margin-bottom: 50px;
+}
+
+.cyber-title h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 2px 2px #c4a128, -2px -2px #c4a128;
+  letter-spacing: 5px;
+}
+
 .hero {
   min-height: 90vh;
   background: transparent;
@@ -107,6 +120,7 @@ h1 {
   background: transparent;
   border: 2px solid #c4a128;
   color: #c4a128;
+  text-decoration: none;
 }
 
 .primary-btn:hover, .secondary-btn:hover {

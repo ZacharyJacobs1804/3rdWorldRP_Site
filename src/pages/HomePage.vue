@@ -2,24 +2,21 @@
   <div class="home">
     <HeroComponent />
     <AboutComponent />
-    <DepartmentsComponent />
-    <JoinComponent />
+    <TopStreamersComponent />
   </div>
 </template>
 
 <script>
-import HeroComponent from "../components/HeroComponent.vue";
 import AboutComponent from "../components/AboutComponent.vue";
-import DepartmentsComponent from "../components/DepartmentsComponent.vue";
-import JoinComponent from "../components/JoinComponent.vue";
+import HeroComponent from "../components/HeroComponent.vue";
+import TopStreamersComponent from "@/components/TopStreamersComponent.vue";
 
 export default {
   name: 'HomePage',
   components: {
     HeroComponent,
     AboutComponent,
-    DepartmentsComponent,
-    JoinComponent,
+    TopStreamersComponent
   }
 };
 </script>

@@ -34,6 +34,8 @@ export default {
 </script>
 
 <style>
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
 /* Global styles */
 *, *::before, *::after {
   margin: 0;
@@ -44,11 +46,11 @@ export default {
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
-    url('/src/assets/images/skies_gta.jpg') center center / cover;
+    url('/src/assets/images/main_bg.jpg') center center / cover no-repeat fixed;
   color: white;
   font-family: 'Segoe UI', sans-serif;
 }

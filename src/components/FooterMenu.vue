@@ -11,9 +11,8 @@
         <div class="footer-section">
           <h4>Quick Links</h4>
           <nav>
-            <a href="#about">About</a>
             <a href="#join">Join Us</a>
-            <a href="#">Standard Operating Procedures</a>
+            <a href="#">Terms Of Play</a>
             <a href="#">Community Guidelines</a>
           </nav>
         </div>

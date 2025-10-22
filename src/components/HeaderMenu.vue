@@ -7,11 +7,10 @@
       </router-link>
     </div>
     <nav>
-      <router-link to="/about">About</router-link>
       <a href="#">Staff</a>
       <a href="#">Rules</a>
       <router-link to="/departments">Job Applications</router-link>
-      <a href="#">Discord</a>
+      <router-link to="/streamers">Our Streamers</router-link>
     </nav>
   </header>
 </template>
