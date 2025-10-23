@@ -2,13 +2,13 @@
   <header>
     <div class="logo-container">
       <router-link to="/">
-        <img src="@/assets/logo.png" alt="3RD WORLD RP Logo" class="logo" />
-        <h1>3RD WORLD RP</h1>
+        <img src="@/assets/images/logo.png" alt="3RD WORLD RP Logo" class="logo" />
+        <!-- <h1>3RD WORLD RP</h1> -->
       </router-link>
     </div>
     <nav>
       <a href="#">Staff</a>
-      <a href="#">Rules</a>
+      <router-link to="/rules">Rules</router-link>
       <router-link to="/departments">Job Applications</router-link>
       <router-link to="/streamers">Our Streamers</router-link>
     </nav>
