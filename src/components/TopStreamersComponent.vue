@@ -13,10 +13,10 @@
         <div class="card-frame"></div>
         <div class="streamer-content">
           <div class="streamer-avatar">
-            <img src="../assets/images/profile_image.png" alt="Streamer 1">
+            <img src="../assets/images/streamers/clarashade.png" alt="Streamer 1">
             <div class="live-badge">LIVE</div>
           </div>
-          <h3 class="streamer-name">XStreamMaster</h3>
+          <h3 class="streamer-name">Courtez NightShade</h3>
           <div class="social-links">
             <a href="https://twitch.tv/streammaster" target="_blank">
               <i class="fab fa-twitch"></i>
@@ -36,10 +36,10 @@
         <div class="card-frame"></div>
         <div class="streamer-content">
           <div class="streamer-avatar">
-            <img src="../assets/images/profile_image.png" alt="Streamer 2">
+            <img src="../assets/images/streamers/Logo_with_CAT.png" alt="Streamer 2">
             <div class="live-badge">LIVE</div>
           </div>
-          <h3 class="streamer-name">ProGamer2</h3>
+          <h3 class="streamer-name">x_NukieGaming_x</h3>
           <div class="social-links">
             <a href="https://twitch.tv/progamer2" target="_blank">
               <i class="fab fa-twitch"></i>
